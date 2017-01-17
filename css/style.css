@@ -15,8 +15,8 @@ header>h1{
 /*main*/
 body>main>section>img{
   margin:6px;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 20%;
+  max-width: 20%;
   float: left;
   display: inline-block;
 }
@@ -28,7 +28,7 @@ section>p{
 }
 #top>div{
   display: inline-block;
-  height: 200px;
+  height: 20vh;
   width:70vw;
 }
 #middle{
@@ -60,4 +60,49 @@ footer > nav > ul > li {
   display: inline-block;
 
 }
+@media only screen and (max-width:480px){
+  #top>div{
+  height: 10vh;
+  width:35vw;
+}
+#middle{
+  float:left;
+  width:35vw;
+  display: inline-block;
+}
+#bottom{
+  width:35vw;
+  display: inline-block;
+}
+aside{
+float:right;
+width:10vw;
+display:inline-block;
+margin top: 10px
+}
+@media only screen and (max-width:240px){
+  #top>div{
+  height: 5vh;
+  width:17.5vw;
+}
+#middle{
+  float:left;
+  width:17.5vw;
+  display: inline-block;
+}
+#bottom{
+  width:17.5vw;
+  display: inline-block;
+}
+aside{
+float:right;
+width:5vw;
+display:inline-block;
+margin top: 10px
+}
+
+}
+
+
+
 /*footer*/
