@@ -2,6 +2,7 @@
 header>h1{
   text-align: center;
   font-size: 22px;
+  margin:12px;
 }
 /*header*/
 /*main*/
@@ -11,12 +12,15 @@ body>main>section>img{
   float: left;
   display: inline-block;
 }
-#top{
+#top>div{
   display: inline-block;
-  width:70vw;
+  height: 400px;
 }
 middle{
-  width:80vw;
+
+}
+aside{
+  float:right;
 }
 /*main*/
 /*footer*/
