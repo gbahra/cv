@@ -1,0 +1,26 @@
+/*header*/
+header>h1{
+  text-align: center;
+  font-size: 22px;
+}
+/*header*/
+/*main*/
+body>main>section>img{
+  max-height: 400px;
+  max-width: 400px;
+  float: left;
+  display: inline-block;
+}
+#top{
+  display: inline-block;
+  width:70vw;
+}
+middle{
+  width:80vw;
+}
+/*main*/
+/*footer*/
+footer{
+  width:100%;
+}
+/*footer*/
