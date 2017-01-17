@@ -26,18 +26,25 @@ section>p{
   width:70vw;
 }
 #middle{
-  width:50vw;
+  float:left;
+  width:70vw;
+  display: inline-block;
 }
 #bottom{
-  width:50vw;
+  width:70vw;
+  display: inline-block;
 }
 aside{
 float:right;
+width:20vw;
+display:inline-block;
 }
 /*main*/
 
 /*footer*/
 footer{
   width:100%;
+  position:fixed;
 }
+footer>
 /*footer*/
