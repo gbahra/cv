@@ -15,12 +15,16 @@ body>main>section>img{
 #top>div{
   display: inline-block;
   height: 400px;
+  width:70vw;
 }
-middle{
-
+#middle{
+  width:80vw;
+}
+#bottom{
+  width:80vw;
 }
 aside{
-  float:right;
+float:right;
 }
 /*main*/
 /*footer*/
