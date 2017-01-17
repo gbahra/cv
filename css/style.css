@@ -5,28 +5,37 @@ header>h1{
   margin:12px;
 }
 /*header*/
+
 /*main*/
 body>main>section>img{
+  margin:6px;
   max-height: 400px;
   max-width: 400px;
   float: left;
   display: inline-block;
 }
+section{
+  margin:10px;
+}
+section>p{
+  margin:5px;
+}
 #top>div{
   display: inline-block;
-  height: 400px;
+  height: 200px;
   width:70vw;
 }
 #middle{
-  width:80vw;
+  width:50vw;
 }
 #bottom{
-  width:80vw;
+  width:50vw;
 }
 aside{
 float:right;
 }
 /*main*/
+
 /*footer*/
 footer{
   width:100%;
